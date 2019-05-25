@@ -1,0 +1,11 @@
+.idea/*
+.ropeproject/*
+*__pycache__*
+checkpoints/*
+parameters/*
+ParlAI/*
+datasets/*
+config.py
+model/parameters/*
+env/*
+env3/*
