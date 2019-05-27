@@ -14,4 +14,10 @@ This repo is based on the python version of p5.
  ```
 pip install -r requirements.txt
 ```
+For using fast boid:
+```
+pip install ray
+```
 
+## A technical detail
+The implemented boid is slow for large number of boids. The fast_boid is a try usign [ray](https://github.com/ray-project/ray) to make it faster. In current implementation, it doesn't make a huge difference though. If someone could figure out to make it faster just send me a push request.
