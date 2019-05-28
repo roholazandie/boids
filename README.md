@@ -12,6 +12,9 @@ This repo is based on the python version of p5.
 ## Installation
  Run:
  ```
+ sudo apt-get install libglfw3
+ ```
+ ```
 pip install -r requirements.txt
 ```
 For using fast boid:

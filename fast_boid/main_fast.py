@@ -1,8 +1,8 @@
 import ray
 from p5 import *
 import numpy as np
-from ray_tut.fast_boid import Boid
-from ray_tut.fast_boid import Vec2D
+from fast_boid.fastboid import Boid, Vec2D
+
 
 x = 100
 y = 100
@@ -16,7 +16,7 @@ mean_y = height/2
 v1 = Vec2D(400, 300)
 ray.init(num_gpus=1)
 
-flock = [Boid(*np.random.rand(2)*1000, width, height) for _ in range(30)]
+flock = [Boid(*np.random.rand(2)*1000, width, height) for _ in range(90)]
 
 
 def show(boid):

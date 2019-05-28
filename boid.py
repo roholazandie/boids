@@ -107,7 +107,7 @@ class Boid():
             if np.linalg.norm(steering) > 0:
                 avg_vector = (avg_vector / np.linalg.norm(steering)) * self.max_speed
             steering = avg_vector - self.velocity
-            if np.linalg.norm(steering)> self.max_force:
+            if np.linalg.norm(steering) > self.max_force:
                 steering = (steering /np.linalg.norm(steering)) * self.max_force
 
         return steering

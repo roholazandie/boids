@@ -6,7 +6,7 @@ from boid import Boid
 width = 1000
 height = 1000
 
-flock = [Boid(*np.random.rand(2)*1000, width, height) for _ in range(30)]
+flock = [Boid(*np.random.rand(2)*1000, width, height) for _ in range(50)]
 
 
 def setup():
