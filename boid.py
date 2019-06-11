@@ -1,4 +1,4 @@
-from p5 import *
+from p5 import Vector, stroke, circle
 import numpy as np
 
 class Boid():
